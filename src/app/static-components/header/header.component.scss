@@ -1,0 +1,37 @@
+#header {
+  margin: 0 auto;
+  padding: 44px 0 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 63.158%;
+}
+
+
+#navigation-links {
+  margin: 0;
+  padding: 56px 0 0;
+}
+
+
+#navigation-links li {
+  display: inline;
+  list-style: none;
+  margin: 0;
+  padding: 0 19px;
+}
+
+
+#navigation-links li a {
+  text-decoration: none;
+  color: #252525;
+  font-size: 14px;
+  padding: 0 0 3px;
+  text-transform: uppercase;
+}
+
+
+#navigation-links li a:hover {
+  color: #0ba39c;
+}
