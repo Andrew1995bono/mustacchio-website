@@ -1,0 +1,38 @@
+#gallery {
+  text-align: center;
+}
+
+
+.gallery-images {
+  display: grid;
+  grid-template-columns: repeat(3, 296px);
+  grid-gap: 25px;
+  justify-content: center;
+  margin-bottom: 65px;
+}
+
+
+#gallery h3 {
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Poller One', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 35px;
+}
+
+
+.gallery-images img {
+  border: 2px solid #1a1a1a;
+  opacity: 0.8;
+}
+
+
+.gallery-images img:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+}
