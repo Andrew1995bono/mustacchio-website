@@ -1,0 +1,44 @@
+#about {
+  text-align: center;
+}
+
+
+#about span {
+  display: inline-block;
+  background: #252525;
+  padding: 15px 28px 12px;
+  color: #fff;
+  font-family: 'Poller One', cursive;
+  font-size: 35px;
+  text-transform: uppercase;
+}
+
+
+#about img {
+  margin-top: 24px;
+  border: 2px solid #292929;
+}
+
+
+.cut-above-the-rest h3, .serving-all-ages h3, .our-products h3 {
+  display: inline-block;
+  background: #1a1a1a;
+  color: white;
+  font-family: 'Poller One', cursive;
+  font-size: 18px;
+  font-weight: 400;
+  margin: 20px 0;
+  padding: 23px 27px 20px;
+}
+
+
+.cut-above-the-rest p, .serving-all-ages p, .our-products p {
+  margin: 0 400px;
+  font-family: Arial, serif;
+  font-size: 16px;
+}
+
+
+.our-products p {
+  margin-bottom: 50px;
+}
