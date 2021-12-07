@@ -1,0 +1,45 @@
+.footer {
+  background-color: #252525;
+  display: flex;
+  justify-content: space-between;
+  padding: 36px 0 42px;
+}
+
+
+.footer div:first-child {
+  margin-left: 279px;
+}
+
+
+.footer div:last-child {
+  margin-right: 299px;
+}
+
+
+.footer p {
+  color: #fff;
+  float: left;
+  line-height: 44px;
+  margin: 0 0 0 20px;
+  padding: 0;
+  font-size: 14px;
+  font-family: Arial, serif;
+}
+
+
+.icons {
+  display: flex;
+  align-items: center;
+}
+
+
+.icons img {
+  background-color: white;
+  padding: 6px;
+  margin-right: 20px;
+}
+
+
+.icons img:last-child {
+  margin-right: 0;
+}
