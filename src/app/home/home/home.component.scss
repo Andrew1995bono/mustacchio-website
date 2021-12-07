@@ -1,3 +1,8 @@
+#featured {
+  padding-bottom: 30px;
+}
+
+
 #featured img {
   width: 100%;
 }
@@ -12,6 +17,7 @@
 
 
 .beacon-description h2 {
+  display: inline-block;
   background: #fff;
   color: #000;
   font-family: "Poller One", serif;
