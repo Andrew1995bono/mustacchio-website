@@ -1,0 +1,102 @@
+#featured img {
+  width: 100%;
+}
+
+
+.beacon-description {
+  position: absolute;
+  width: 490px;
+  left: 49.4%;
+  top: 365px;
+}
+
+
+.beacon-description h2 {
+  background: #fff;
+  color: #000;
+  font-family: "Poller One", serif;
+  font-weight: 400;
+  font-size: 20px;
+  margin: 0 0 18px;
+  padding: 23px 27px 20px;
+  text-transform: uppercase;
+  line-height: 20px;
+}
+
+
+.beacon-description span {
+  background: #252525;
+  display: inline-block;
+  color: #fff;
+  font-size: 20px;
+  margin: 7px 0;
+  padding: 12px 27px;
+  font-family: Arial, serif;
+  line-height: 20px;
+}
+
+
+.beacon-description button {
+  background: #0ba39c;
+  color: #fff;
+  font-size: 16px;
+  margin: 15px 0 0;
+  padding: 26px 27px 22px;
+  text-transform: uppercase;
+  border: none;
+  font-family: Arial,serif;
+  line-height: 16px;
+}
+
+
+.beacon-description button:hover {
+  cursor: pointer;
+  background: #1fc3bc;
+}
+
+
+.other-types {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  padding: 24px 0 0;
+  margin: 0 auto;
+}
+
+
+.other-types div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.other-types  div img {
+  display: block;
+  border: 2px solid #1a1a1a;
+  opacity: 0.8;
+}
+
+
+.other-types div img:hover {
+  transition: 0.5s ease-in-out;
+  opacity: 1;
+  cursor: pointer;
+}
+
+
+.actor {
+  margin: 0 20px;
+}
+
+
+.other-types div a {
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  padding-top: 33px;
+  font-family: 'Poller One', cursive;
+  font-size: 20px;
+  display: inline-block;
+  color: #000000;
+}
