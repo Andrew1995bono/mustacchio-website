@@ -1,0 +1,46 @@
+@import "src/mixins";
+
+
+#contact {
+  text-align: center;
+}
+
+
+#contact h3 {
+  @include header
+}
+
+
+#contact input {
+  display: block;
+  margin: 15px auto 30px;
+  width: 39.2315%;
+  border: 2px solid #252525;
+  padding: 20px 10px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+
+#contact input.message {
+  height: 220px;
+}
+
+
+#contact input::placeholder {
+  color: #252525;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+}
+
+
+button {
+  @include button;
+  padding: 15px 28px;
+}
+
+
+button:hover {
+  @include buttonHover;
+}
+

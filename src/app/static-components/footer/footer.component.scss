@@ -41,6 +41,12 @@
 }
 
 
+.icons img:hover {
+  cursor: pointer;
+  background-color: slategrey;
+}
+
+
 .icons img:last-child {
   margin-right: 0;
 }

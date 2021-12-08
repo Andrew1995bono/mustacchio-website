@@ -55,19 +55,10 @@
 
 
 button {
-  background: #000;
-  color: #fff;
-  font-family: "Arial Black", Gadget, sans-serif;
-  font-size: 18px;
-  padding: 8px 28px;
-  text-transform: uppercase;
-  border: 1px solid #000;
-  line-height: 16px;
+  @include button;
 }
 
 
 button:hover {
-  color: #252525;
-  background: #fff;
-  border: 2px solid #252525;
+  @include buttonHover;
 }
