@@ -1,0 +1,12 @@
+@mixin header() {
+  background: #252525;
+  display: inline-block;
+  padding: 15px 28px 12px;
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Poller One', cursive;
+  font-weight: 400;
+  margin: 20px 0;
+  font-size: 35px;
+  line-height: 35px;
+}

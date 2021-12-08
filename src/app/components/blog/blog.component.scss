@@ -1,0 +1,73 @@
+@import "src/mixins";
+
+
+#blog {
+  text-align: center;
+}
+
+
+#blog h3 {
+  @include header;
+}
+
+
+.post-1, .post-2, .post-3 {
+  display: flex;
+  width: 62%;
+  justify-content: center;
+  margin: 0 auto;
+}
+
+
+.post-2 {
+  margin: 15px auto;
+}
+
+
+.post-1 img, .post-2 img, .post-3 img {
+  border: 2px solid #1a1a1a;
+}
+
+
+.post-1-description, .post-2-description, .post-3-description {
+  border: 2px solid #1a1a1a;
+  border-left: none;
+  padding-top: 63px;
+}
+
+
+.post-1-description h2, .post-2-description h2, .post-3-description h2 {
+  color: #252525;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 25px;
+  text-transform: uppercase;
+}
+
+
+.post-1-description p, .post-2-description p, .post-3-description p {
+  color: #252525;
+  line-height: 24px;
+  margin: 0;
+  padding: 30px 30px 18px;
+  font-size: 14px;
+  font-family: Arial, serif;
+}
+
+
+button {
+  background: #000;
+  color: #fff;
+  font-family: "Arial Black", Gadget, sans-serif;
+  font-size: 18px;
+  padding: 8px 28px;
+  text-transform: uppercase;
+  border: 1px solid #000;
+  line-height: 16px;
+}
+
+
+button:hover {
+  color: #252525;
+  background: #fff;
+  border: 2px solid #252525;
+}
